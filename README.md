@@ -41,22 +41,24 @@ Clone your forked repository to your local machine using the following command:
 
    git clone https://github.com/your-username/your-repository.git
 
-## 3. Create a New Branch
+## 3. Change directory
    cd your-repository
+
+## 4. Create a New Branch
    git checkout -b your-feature-branch
 
-## 4. Make Changes
+## 5. Make Changes
 Make your changes to the code or documentation in your branch.
 
-## 5. Commit Changes
+## 6. Commit Changes
    git add .
    git commit -m "Description of your changes"
 
-## 6. Push Changes
+## 7. Push Changes
    git push origin your-feature-branch
 
-## 7 Create a Pull Request
+## 8. Create a Pull Request
 Go to the original repository and click on the "New Pull Request" button. Provide a clear title and description for your pull request.
 
-## 8 Await Review
+## 9. Await Review
 Your pull request will be reviewed by the project maintainers. Make any requested changes and respond to comments if necessary.
