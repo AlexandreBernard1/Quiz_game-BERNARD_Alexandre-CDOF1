@@ -1,15 +1,32 @@
 [
-    {
-      "question": "Quelle est la capitale de la France?",
-      "reponses_correctes": ["paris"]
-    },
-    {
-      "question": "Quel est le plus grand océan du monde?",
-      "reponses_correctes": ["pacifique"]
-    },
-    {
-      "question": "Combien de continents y a-t-il?",
-      "reponses_correctes": ["7", "sept"]
-    }
-  ]
-  
+  {
+    "theme": "geographie",
+    "question": "Quelle est la capitale de la France ?",
+    "reponses_correctes": ["paris"]
+  },
+  {
+    "theme": "geographie",
+    "question": "Quel est le plus grand fleuve du monde ?",
+    "reponses_correctes": ["nil"]
+  },
+  {
+    "theme": "histoire",
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "reponses_correctes": ["1789"]
+  },
+  {
+    "theme": "histoire",
+    "question": "Qui était le premier président des États-Unis ?",
+    "reponses_correctes": ["george washington"]
+  },
+  {
+    "theme": "mathematique",
+    "question": "Combien font 5 multiplié par 7 ?",
+    "reponses_correctes": ["35"]
+  },
+  {
+    "theme": "mathematique",
+    "question": "Quel est le résultat de 20 divisé par 4 ?",
+    "reponses_correctes": ["5"]
+  }
+]
