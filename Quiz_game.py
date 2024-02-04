@@ -53,10 +53,18 @@ class QuizApp:
         self.master.destroy()
 
     def charger_questions_depuis_json(self, chemin_fichier, theme):
-        with open(chemin_fichier, "r", encoding="utf-8") as fichier:
-            questions = json.load(fichier)
+        try:
+            with open(chemin_fichier, "r", encoding="utf-8") as fichier:
+                questions = json.load(fichier)
+        except FileNotFoundError:
+            messagebox.showerror("Erreur", "Le fichier {} n'a pas été trouvé.".format(chemin_fichier))
+            self.master.destroy()
 
         questions_du_theme = [q for q in questions if q["theme"] == theme]
+        if not questions_du_theme:
+            messagebox.showinfo("Fin du quiz", "Aucune question trouvée pour le thème sélectionné.")
+            self.master.destroy()
+
         return questions_du_theme
 
     def choisir_theme(self):
