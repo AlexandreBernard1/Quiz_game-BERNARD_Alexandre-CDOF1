@@ -28,5 +28,35 @@
     "theme": "mathematique",
     "question": "Quel est le résultat de 20 divisé par 4 ?",
     "reponses_correctes": ["5"]
+  },
+  {
+    "theme": "geographie",
+    "question": "Quelle est la capitale de l'Espagne ?",
+    "reponses_correctes": ["madrid"]
+  },
+  {
+    "theme": "geographie",
+    "question": "Quel est le plus grand lac du monde ?",
+    "reponses_correctes": ["lac supérieur"]
+  },
+  {
+    "theme": "histoire",
+    "question": "En quelle année a eu lieu la Guerre de Sécession aux États-Unis ?",
+    "reponses_correctes": ["1861"]
+  },
+  {
+    "theme": "histoire",
+    "question": "Qui était le pharaon égyptien connu pour la construction des pyramides de Gizeh ?",
+    "reponses_correctes": ["khéops"]
+  },
+  {
+    "theme": "mathematique",
+    "question": "Combien font la racine carrée de 144 ?",
+    "reponses_correctes": ["12"]
+  },
+  {
+    "theme": "mathematique",
+    "question": "Quel est le périmètre d'un carré de côté 8 unités ?",
+    "reponses_correctes": ["32"]
   }
 ]
