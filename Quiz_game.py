@@ -24,6 +24,7 @@ def jouer_quiz():
     score = 0
 
     theme_choisi = choisir_theme()
+    # Attention, le fichier "questions.json" doit se trouver dans le même dossier que ce script
     questions = charger_questions_depuis_json("questions.json", theme_choisi)
     
     random.shuffle(questions)
